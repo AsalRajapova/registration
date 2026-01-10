@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:mediumseagreen;
+
+}
+.container1{
+    border: 1px solid white;
+    height: 310px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    
+}
+
+.h31{
+    font-family: sans-serif;
+    text-align:center;
+    padding-top: 20px;
+}
+.input1{
+    width: 250px;
+    height: 40px;
+    margin:15px;
+    padding-left: 10px;
+}
+.input2{
+    width: 250px;
+    height: 40px;
+    margin:15px;
+    padding-left: 10px;
+}
+.a1{
+    color:mediumseagreen;
+    margin: 15px;
+    text-decoration: none;
+}
+.button1{
+   background-color: mediumseagreen;
+   border: mediumseagreen;
+   width: 250px;
+   height: 40px;
+   margin: 15px;
+   border-radius: 4px;
+}
+.p2{
+    text-align: center;
+}
+.signup{
+    text-decoration: none;
+    color: mediumseagreen;
+}
+.container2{
+    border: 1px solid white;
+    height: 360px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+   
+}
+.h32{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.input3{
+    width: 290px;
+    height: 40px;
+    margin:15px;
+    padding-left: 10px;
+}
+.input4{
+    width: 290px;
+    height: 40px;
+    margin:15px;
+    padding-left: 10px;
+
+}
+.input5{
+    width: 290px;
+    height: 40px;
+    margin:15px;
+    padding-left: 10px;
+}
+.button2{
+   background-color: mediumseagreen;
+   border: mediumseagreen;
+   width: 290px;
+   height: 40px;
+   margin: 15px;
+   border-radius: 4px;
+}
+.p2{
+    text-align: center;
+}
+.login{
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+  body {
+    background-color: mediumseagreen;
+  }
+  .container {
+    width: 768px;
+  }
+
+  ul {
+    flex-wrap: wrap;
+  }
+}
+/* Telefon */
+@media (min-width: 930px) {
+  body {
+    background-color: mediumseagreen;
+  }
+
+  .container {
+    width: 420px;
+  }
+
+
+  ul {
+    flex-direction: column;
+  }
+  li {
+    width: 380px;
+  }
+}
